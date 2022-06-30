@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  webgl:
+    container_name: webglTest
+    build: .
+    ports:
+      - "8083:80"
